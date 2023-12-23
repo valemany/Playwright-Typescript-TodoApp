@@ -1,0 +1,20 @@
+{
+  "name": "qa-code-challenge",
+  "version": "1.0.0",
+  "description": "Reach Financial code challenge for members looking to join the QA team",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --reporter=list",
+    "test:chrome": "npm run test -- --project=chromium",
+    "test:firefox": "npm run test -- --project=firefox"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.5"
+  },
+  "dependencies": {
+    "eslint": "^8.35.0"
+  }
+}
